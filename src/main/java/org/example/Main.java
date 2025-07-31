@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
 
-    // instance variables
+    // instance variabless
     int instanceBinary = 0b101101; // 45 in decimal
     int instanceOctal = 072;       // 58 in decimal
     double instanceDouble = 1_234.95;
@@ -14,7 +14,7 @@ public class Main {
         int localHex = 0xFF; // 255 in Hex
         int localBinary = 0b1101; // 100 in Binary
         int localOctal = 014; // 12 in Octal
-        long localLong = 10000000L;
+        long localLong = 10_000_000L;
         String localString = "Every step I take gets me closer to my goal.";
 
         System.out.println("Local Variables:");
